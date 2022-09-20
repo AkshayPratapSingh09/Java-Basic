@@ -5,6 +5,7 @@ public class j_07_Operators {
         int b = 10;
         int i = 45;
         int j = 67;
+        boolean h = true;
         
         System.out.println("\nArithmetic Operators::--");
         System.out.println(a+" + "+b+" = "+(a+b));
@@ -28,8 +29,10 @@ public class j_07_Operators {
             System.out.println("&& : Operators used for giving multiple condition");
             System.out.println("a>b && b<100");
             // System.out.println("a <= b is "+(a<=b));
-          
+            
         }
+        System.out.println("h is "+(h));
+        System.out.println("h after ! is "+(!h));
 
     }
 }
